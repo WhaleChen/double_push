@@ -1,6 +1,6 @@
 import subprocess
 
-def add_pushurl(user_name, github_repo_name="OMOOC2py", gitbook_repo_name="OMOOC2py"):
+def add_pushurl(user_name, github_repo_name, gitbook_repo_name):
     """Add GitHub pushurl & Gitbook pushurl to remote origin in file .git/config"""
 
     github_repo_url = "https://github.com/{name}/{repo}.git".format(name=user_name, repo=github_repo_name)
