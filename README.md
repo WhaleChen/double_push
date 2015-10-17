@@ -13,6 +13,7 @@ git clone https://github.com/wp-lai/double_push.git
 ```
 python double_push.py
 ```
+
 接着会出现提示，让你输入：
 1. GitHub和Gitbook上的用户名
 2. GitHub上代码库的名称，如果是"OMOOC2py"，直接点击回车
@@ -21,7 +22,14 @@ python double_push.py
 命令执行成功会显示`Mission Complete`
 
 这之后，本地代码库进行修改并完成commit之后
-执行'git push'，就可以同时push给GitHub和Gitbook
+执行`git push`，就可以同时push给GitHub和Gitbook
+
+此外，也可以直接调用`double_push`库里面的`add_pushurl`函数，例如
+```python
+import double_push
+
+double_push.add_pushurl(wp-lai, OMOOC2py, OMOOC2py)
+```
 
 # 注意事项
 1. 确认在GitHub和Gitbook里已经建立了相应的代码库，若没有的话，新建一个即可。
