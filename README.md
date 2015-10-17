@@ -11,20 +11,12 @@ git clone https://github.com/wp-lai/double_push.git
 # 使用
 将`double_push.py`移动到使用git的文件夹里。然后在命令行里执行
 ```
-python double_push.py {user_name} {github_repo_name} {gitbook_repo_name}
+python double_push.py
 ```
-里面包含三个参数
-+ 参数1是GitHub和Gitbook上的用户名
-+ 参数2是GitHub上代码库的名称
-+ 参数3是Gitbook上书籍的名称
-
-例如，用户名是wp-lai，GitHub上代码库名称为my_omooc2，Gitbook上书籍名称为learn-python，而在个人电脑中内容存在OMOOC2py文件夹下。
-
-则将`double_push.py`移动到OMOOC2py文件夹根目录下。
-然后在命令行里执行
-```
-python double_push.py wp-lai my_omooc2 learn-python
-```
+接着会出现提示，让你输入：
+1. GitHub和Gitbook上的用户名
+2. GitHub上代码库的名称，如果是"OMOOC2py"，直接点击回车
+3. Gitbook上书籍的名称，如果是"OMOOC2py"，直接点击回车
 
 命令执行成功会显示`Mission Complete`
 
