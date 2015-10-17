@@ -40,3 +40,14 @@ double_push.add_pushurl(wp-lai, OMOOC2py, OMOOC2py)
 
 # 改进和建议
 欢迎大家在issue中指出代码问题和提出修改建议，也希望大家fork以及提交pull request。
+
+# CHANGELOG
+**Version 1.0**
+*Oct 16, 2015*
+> 第一版发布
+
+**Version 1.1**
+*Oct 17, 2015*
+
+> + 将主要内容写进一个函数里，这样用户可以把double_push当作一个模块，调用里面add_pushurl()函数
+> + 将从命令行命令里获得用户输入改为通过交互问答获得用户输入
